@@ -1,0 +1,145 @@
+
+/* 071952 088395 37B7C3 EBF4F6 */
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+
+body{
+background-color: #EBF4F6;
+font-family: roboto;
+}
+
+.hero{
+    height: 90vh;
+    display: grid;
+    grid-template: 2fr 3fr 2fr 2fr/1fr;
+    padding: 50px;
+}
+
+.hero-item{
+    height: 50px;
+    color: #071952;
+    text-align: center;
+}
+.intestazione{
+    font-size: 1.5rem;
+    width: 50%;
+    color: #071952;
+}
+.arrow{
+  display: flex;
+  flex-direction: column;
+  color: black;
+  ;
+}
+
+.presentation{
+  background-color: #EBF4F6;
+  display: grid;
+  grid-template: 1fr 2fr 2fr / 1fr 3fr;
+  margin-top: 50px;
+  padding: 100px;
+  gap: 30px;
+}
+
+.presentation p {
+  font-size: 1.5rem;
+}
+
+
+.first-pres-item{
+  grid-row: 1 / -1;
+}
+
+.resume{
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 3fr 1fr;
+  height: 100vh;
+  margin: 50px auto;
+  padding: 30px 60px;
+  gap: 5px;
+  
+}
+
+.graduation{
+  grid-row: 1 / 3;
+  background-color: #EBF4F6;
+  align-self: center;
+}
+
+.job-exp{
+  grid-column: 3 /5;
+  grid-row: 3 / 5;
+  background-color: #EBF4F6;
+  align-self: center;}
+
+.skill{
+  grid-column: 1 / 2;
+  grid-row: 5 / 7;
+  background-color: #EBF4F6;
+  align-self: center;}
+
+.study-resume{
+  grid-column: 2 / 5;
+  grid-row: 1 / 3;
+  background-color: #EBF4F6;
+}
+
+.job-resume{
+  grid-column: 1 / 3;
+  grid-row: 3 / 5;
+  background-color: #EBF4F6;
+}
+
+.skill-resume{
+grid-column: 2 / 5;
+grid-row: 5 / 7;
+background-color: #EBF4F6;
+}
+
+.flex-resume {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  padding: 30px;
+}
+.flex-resume p {
+  font-size: 20px;
+}
+
+.projects {
+  display: grid;
+  grid-template: 1fr 1fr 1.5fr / 1fr 1fr 1fr;
+  text-align: center;
+  margin-top: 100px
+
+}
+
+.proj-title {
+  align-self: center;
+}
+
+.projects p {
+  padding: 0 50px;
+  font-size: 20px;
+}
+
+p{margin: 0;}
+
+.separe{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
